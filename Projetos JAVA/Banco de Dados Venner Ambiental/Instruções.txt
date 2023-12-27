@@ -1,0 +1,3 @@
+1º - Descompacte o arquivo 'VennerAmbiental.rar'
+
+2º - Entre na pasta 'VennerAmbiental' e execute o arquivo 'Launcher.bat'

@@ -1,0 +1,20 @@
+Este é um sistema de transações de dinheiro entre cliente e empresa.
+Existe varios clientes e varias empresas com 
+Tanto o cliente quanto a empresa tem seu próprio saldo, e toda vez que o cliente saca ou deposita dinheiro na sua conta, a empresa recebe uma taxa percentual do dinheiro processado.
+
+Na tela de Login, o usuario deverá colocar o CPF (caso queira acessar como cliente) ou CNPJ (caso queira acessar como empresa).
+Tanto o CPF quanto o CNPJ deve ter pontos e traços inseridos pelo cliente.
+Após inserir a senha (que por padrão é 1234), o usuario deverá selecionar o botão 'cliente' ou o botão 'empresa' na parte inferior da tela de Login.
+Por fim, o usuario deverá clicar no botão de 'Entrar'.
+
+
+Para clientes:
+	- Após entrar como cliente, será mostrado na tela o nome da empresa que está guardando o dinheiro, o CPF do cliente, o saldo atual e a taxa percentual de imposto da empresa.
+	- Ao clicar no botão 'Sacar', aparecerá um tela de saque de dinheiro mostrando o saldo atual e o imposto percentual da empresa. Após inserir o valor e clicar em 'Sacar', o dinheiro será retirado da conta e mais um extra retirado referente ao imposto da empresa. Esse extra será depositado na conta da empresa.
+	- Ao clicar no botão 'Depositar', aparecerá um tela de saque de dinheiro mostrando o saldo atual e o imposto percentual da empresa. Após inserir o valor e clicar em 'Depositar', o valor terá o imposto aplicado antes de ser depositado, e a parte taxada do valor será depositado na conta da empresa.
+
+
+Para empresas:
+	- Após entrar como empresa, será mostrado na tela o nome da empresa, o CNPJ da empresa, o saldo atual e taxa de sistema da empresa.
+	- Nesta tela é possivel alterar o valor da taxa de sistema da empresa que é cobrada percentualmente nos processos de transações do cliente.
+	- Após realizar as alterações na taxa de sistema de empresa, clique em 'Salvar Alterações'. 
