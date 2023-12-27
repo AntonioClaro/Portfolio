@@ -1,0 +1,46 @@
+Este é um sistema de estacionamento.
+Existe multiplos usuarios que compartilham o mesmo banco de dados.
+No sistema, o horário de entrada, horário de saida, tempo de estacionamento, valor a pagar e se o veiculo esta ou não estacionado são todos marcados de forma automatica.
+
+id = id do registro de estacionamento do veiculo;
+Plate = Placa do veiculo;
+Model = Modelo do veiculo;
+Entry = Horário de entrada da permanencia do veiculo;
+Departure = Horário de saída da permanencia do veiculo;
+Time = Tempo de permanencia do veiculo no estacionamento;
+Value = Valor a pagar;
+Parked = Se o valor for 'PARKED', significa que o veiculo esta estacionado no momento. Se o valor for 'NOT PARKED', significa que o veiculo já saiu do estacionamento.
+
+Tela Login:
+	- Na tela Login, o usuario deverá colocar o 'usuário' e a 'senha' (que por padrão é 123456).
+	- Depois, o usuario deverá clicar no botão de 'Login'.
+
+Tela Main Panel:
+	- Na tela Main Panel (Painel Principal) é mostrado as informações do veiculo estacionado, com ele estando estacionado ou já saido do estacionamento.
+	- Caso o veiculo ainda esteja estacionado, alguns campos de informação estarão vazios.
+	- Na parte superior esquerda da tela, tem um botão para filtrar os veiculo mostrados. 
+		All Vehicles: Todos os Veiculos;
+		Parked Vehicles: Veiculos Estacionados;
+		Departed Vehicles: Veiculos que já Partiram.
+	- Na parte direita da tela, há três botões que levam para telas com diferentes funções:
+		Vehicle Entry (Entrada de Veiculo): Registrar um novo veiculo a ser estacionado;
+		Vehicle Edit (Editar Veiculo): Editar algumas informações de um veiculo que esta ou não estacionado. Para abrir essa tela, é necessario primeiro selecionar algum registro de veiculo clicando em sua linha.
+		Vehicle Exit (Saida de Veiculo): Registrar a saida de um veiculo que esta estacionado. Para abrir essa tela, é necessario primeiro selecionar algum registro de veiculo que esta estacionado clicando em sua linha.
+
+Tela Entry:
+	- Esta tela é usada para registrar um novo veiculo sendo estacionado.
+	- O usuário deve digitar a placa no campo Vehicle Plate (Placa do Veiculo) e o modelo no campo Vehicle Model (Modelo do Veiculo). Por fim, clicar em confirmar para realizar o registro.
+	- O horário de entrada da permanencia do veiculo no estacionamento junto com o status de estacionado serão registrados automaticamente.
+
+Tela Edit:
+	- Esta tela é usada para editar algumas informações do veiculo registrado, estando este veiculo estacionado ou não.
+	- Para abrir esta tela, primeiro é necessário selecionar o registro do veiculo a ser alterado clicando em sua linha de registro e então no botão 'Vehicle Edit' (Editar Veiculo) da tela Main Panel (Painel Principal).
+	- Na tela Edit, é possivel alterar as informações da placa de veiculo no campo 'Vehicle Plate' e do modelo do veiculo no campo 'Vehicle Model). As outras informações não podem ser alteradas.
+	- Quando terminar as alterações, o usuário deve clicar no botão 'Confirm' (Confirmar) para salvar as alterações.
+	
+Tela Exit:
+	- Esta tela é usada para registrar a saida do veiculo estacionado.
+	- Para abrir esta tela, primeiro é necessário selecionar o registro de um veiculo que ainda esteja estacionado (ou seja, que esteja com o valor 'PARKED' no seu campo 'Parked') clicando em sua linha de registro e então no botão 'Vehicle Exit' (Saida de Veiculo) da tela Main Panel (Painel Principal).
+	- Quando a tela Exit abrir, será apresentado como os dados do regitro do veiculo ficarão. Não é necessario (e nem possivel) alterar os valores apresentados.
+	- Os dados de Horário de saida do veiculo, Tempo de Estacionamento, Valor a Pagar e de que o veiculo não esta mais estacionado (ou seja, o valor do campo 'Parked' do veiculo será 'NOT PARKED') serão registrados automaticamente.
+	- Para confirmar a saida do veiculo, o usuário devera clicar em 'Confirm'. Para cancelar a operação, o usuário deverá clicar em 'Cancel' ou fechar a janela.
