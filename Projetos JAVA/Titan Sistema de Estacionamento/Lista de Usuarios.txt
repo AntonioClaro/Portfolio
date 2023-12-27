@@ -1,5 +1,0 @@
-Usuários:
-
-id:	nome:		usuário:	senha:
-1	admin		admin		123456
-2	admin2		admin2		123456
