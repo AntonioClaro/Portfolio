@@ -1,0 +1,20 @@
+1º - Instale o XAMPP no computador.
+
+2º - Descompacte o arquivo 'Website.rar'
+
+3º - Após instalado, copie a pasta 'Website' para a pasta 'htdocs' do XAMPP (C:\xampp\htdocs).
+
+4º - Abra o arquivo 'xampp-control' da past 'xampp' (C:\xampp\xampp-control.exe) como Administrador.
+
+4º - Na linha do modulo 'Apache', clique no botão 'Start';
+
+6º - Abra o navegador e digite a URL: http://localhost/Website/Home/MainPage.php
+
+7º - Ao decidir fechar o XAMPP, clique no botão 'Stop' na linha do modulo 'Apache'.
+
+------------------------------------------------------------------------------------------------------------------
+
+OBS:
+	- Algumas funcionalidades do Website ainda não foram implementadas.
+	- Para rodar o projeto a partir de um IDE, também é necessario que a pasta Website esteja na pasta 'htdocs' do XAMPP, e que o servidor Apache do XAMPP esteja ligado (Conforme a instrução 4).
+	- Este projeto foi desenvolvido com foco no Microsoft Edge.

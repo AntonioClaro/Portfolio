@@ -1,0 +1,16 @@
+1º - Instale o Node.js
+
+2º - Descompacte o arquivo 'txai atividade.rar'.
+
+3º - Entre na pasta 'txai atividade'.
+
+4º - Execute o 'LauncherServer.bat' e então execute o 'LauncherApp.bat'.
+
+5º - Quando decidir encerrar as atividades na aplicação, após fechar a janela do navegador, será necessario fechar as janelas do CMD que foram abertas pelos arquivos 'LauncherServer.bat' e 'LauncherApp.bat'.
+
+6º - Para isso, primeiro é preciso ir para a janela de CMD do arquivo 'LauncherApp.bat', pressionar 'Ctrl' + 'C' (Se não der certo na primeira vez, o usuário deve tentar novamente).
+
+7º - Ao ser questionado se deseja finalizar o arquivo em lotes, digite a letra 's' e clique na tecla 'Enter'.
+
+8º - O mesmo procedimento deve ser feito com a janela de CMD do arquivo 'LauncherServer.bat'.
+

@@ -1,0 +1,54 @@
+Este é um sistema de estoque de itens de loja.
+Cada usuário tem seu próprio estoque e pode maneja-los utilizando o sistema CRUD (Create, Read, Update e Delete).
+O sistema diferencia usuário de administrador, mas as funcionalidades de administrador ainda não foram implementadas.
+
+Tela de Login:
+	- Nesta tela são inseridos o nome de usuário, senha e tipo de usuário para então entrar no sistema.
+	- O nome de usuário é colocado no campo 'login' e a senha é colocada no campo 'password'.
+	- Na parte inferior da tela, existe a opção de entrar como usuário normal (Login as User) e como usuário administrador (Login as Admin).
+	- É necesário marcar o tipo de usuário corretamente nas opção da parte inferior da tela . Usuários normais devem entrar com a opção 'Login as User' e administradores devem entrar com a opção 'Login as Admin'.
+	- Em caso de error ou usuário invalido, um alerta de pagina irá aparecer informando que o usuário inserido é invalido.
+
+
+Tela de Itens:
+	- Nesta tela é apresentado os itens que estão vinculados ao usuário.
+	- Os dados apresentados nesta tela são:
+		Name: Nome;
+		Value: Valor;
+		Quantity: Quantidade.
+	- Na parte direita de tela, Há quatro botões:
+		CREATE: Leva para a tela de criação de itens;
+		READ: Após clicar em um item registrado e apertar este botão, o usuário será derecionado a uma tela que apresentada todas as informações deste item;
+		UPDATE: Após clicar em um item registrado e apertar este botão, o usuário será derecionado a uma tela que permite modificar os dados do item selecionado;
+		DELETE: Após clicar em um item registrado e apertar este botão, o item selecionado será excluido.
+	- Se o usuário estiver logado como administrador, um botão na parte inferior esquerda da tela levará o usuário a uma tela de gerenciamento de usuários do sistema (Veja mais abaixo para mais informações desta tela).
+	- Em caso de ter alguma anomalia nos dados mostrados (Tais como dados criados não aparecendo, ou dados deletados ainda sendo mostrados), recarregar a pagina pode corrigir o problema.
+
+
+Tela de Criação de Itens:
+	- Nesta tela são criados novos registros de produto.
+	- Cada campo é designado para um tipo de dado:
+		Name: Nome (Maximo de Caracteres: 200);
+		Value: Valor;
+		Quantity: Quantidade;
+		Date: Data;
+		Brand: Marca (Maximo de Caracteres: 45).
+	- Após inserir os dados do novo registro, o usuário deve clicar no botão 'Save' (Salvar).
+	- O botão 'Reset' recarrega a pagina com os campos nulos.
+
+
+Tela de Leitura de Itens:
+	- Nesta tela, os registros criados podem ser analisados com todos os seus dados estando visiveis.
+	- Nenhum dado pode ser alterado nesta tela, mas eles podem ser copiados.
+
+
+Tela de Alteração de Itens:
+	- Nesta Tela, os registros criados podem ser alterados.
+	- Os conceitos de cada campo desta tela são os mesmos da Tela de Criação de Itens.
+	- O botão 'Reset' recarrega a pagina com os campos tendo os valores do registro selecionado.
+
+
+Tela de Administrador:
+	- As funcionalidades desta tela ainda não foram desenvolvidas.
+	- Os botões de gerenciamento desta tela leva para outras telas, mas as funcionalidades destas outras telas aindão não foram implementadas.
+	- O botão 'Access My stock' (Acessar meu estoque) leva o usuário administrador para a Tela de Itens deste administrador.

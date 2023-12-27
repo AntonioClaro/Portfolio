@@ -1,0 +1,2 @@
+Este é um projeto de Website de revendedora de carros que foi desenvolvido para treinamento pessoal.
+Nem todas as funcionalidades do projeto foram implementadas.
