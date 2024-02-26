@@ -1,0 +1,17 @@
+1º - Instale o MySQL Workbench
+
+2º - Descompacte o arquivo 'VistoriaGO.rar'
+
+3º - Importe o arquivo de banco de dados 'vistoria_go.sql' para o MySQL Workbench
+
+4º - Instale o XAMPP no computador.
+
+5º - Após instalado, copie a pasta VistoriaGO para a pasta 'htdocs' do XAMPP (C:\xampp\htdocs).
+
+6º - Abra o arquivo 'xampp-control' da past 'xampp' (C:\xampp\xampp-control.exe) como Administrador.
+
+7º - Na linha do modulo 'Apache', clique no botão 'Start';
+
+8º - Abra o navegador e digite a URL: http://localhost/VistoriaGO/index.php
+
+9º - Ao decidir fechar o XAMPP, clique no botão 'Stop' na linha do modulo 'Apache'.

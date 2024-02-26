@@ -1,0 +1,43 @@
+Este é um sistema de registro de condutor e veiculo utilizado por este.
+É possivel Pesquisar os dados de um condutor já registrado, criar um novo registro de condutor ou deletar um registro.
+
+Paginal Principal (Pagina Vistoria GO):
+	- Nesta pagina é possivel Pesquisar sobre um condutor e seu veiculo, criar um novo registro de condutor e deletar um registro.
+	- Para pesquisar sobre os dados de um condutor, basta o usuário selecionar o ID de tal condutor na caixa de seleção e clicar no botão 'Pesquisar Registro'.
+	- Para criar um novo registro de condutor, o usuário apenas precisa clicar no botão 'Criar Novo Registro'.
+	- Para deletar um registro, o usuário precisa selecionar o registro de tal condutor na caixa de seleção e então clicar no botão 'Deletar Registro'. O registro é deletado direto sem pedir confirmação. 
+
+Pagina Pesquisar (Pagina Show Vehicle Data):
+	- Esta pagina mostra os dados do condutor e de seu veiculo, assim como fotos do veiculo.
+	- Também são apresentados o ID do condutor e a data criação do registro no topo da tela.
+
+Pagina Adicionar (Pagina Add New Vehicle):
+	- Nesta pagina são inseridos os dados para a criação de um novo registro.
+	- O ID do condutor é criado automaticamente.
+	- Os tipos de dados a serem inseridos são:
+		Dados do Condutor:
+			Nome: 70 caracteres no maximo;
+			CPF: 11 caracteres obrigatórios;
+			RG: 30 caracteres no maximo;
+			Telefone: 10 caracteres minino - 11 caracteres maximo;
+			Endereço: 145 caracteres no maximo;
+			CNH: 2 caracteres no maximo;
+			Selfie com Documento: Deve ser um arquivo do tipo 'jpg'.
+
+		Dados do Veiculo:
+			Placa: 7 caracteres no maximo;
+			Chassi: 17 caracteres no maximo;
+			Renavam: 11 caracteres obrigatórios;
+			UF: 2 caracteres obrigatórios;
+			Marca: 45 caracteres no maximo;
+			Modelo: 45 caracteres no maximo;
+			Kilometragem: Numero que pode ser decimal;
+			Nivel do Combustivel em Litros: Numero que pode ser decimal.
+
+		Fotos do Veiculo:
+			Foto da Placa do Carro: Deve ser um arquivo do tipo 'jpg';
+			Foto da Dianteira do Carro: Deve ser um arquivo do tipo 'jpg';
+			Foto da Traseira do Carro: Deve ser um arquivo do tipo 'jpg';
+			Foto do Hodômetro do Carro: Deve ser um arquivo do tipo 'jpg';
+			Foto do Banco Dianteiro do Carro: Deve ser um arquivo do tipo 'jpg'.
+	- Após os dados serem inseridos, basta clicar no botão 'Enviar' para salvar o registro criado.
