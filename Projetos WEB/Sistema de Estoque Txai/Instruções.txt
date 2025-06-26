@@ -4,15 +4,15 @@
 
 3º - Descompacte o arquivo 'Sistema de Estoque txai.rar' e entre na pasta descompactada do arquivo (A pasta possui o mesmo nome 'Sistema de Estoque txai').
 
-3º - Dentro da pasta 'Sistema de Estoque txai', entre na pasta 'ServerTxai' e execute o arquivo 'launcher_Server.bat' para executar o Servidor Node.
+4º - Dentro da pasta 'Sistema de Estoque txai', entre na pasta 'ServerTxai' e execute o arquivo 'launcher_Server.bat' para executar o Servidor Node.
 
-4º - Volte para a pasta 'Sistema de Estoque txai', entre na pasta 'txai' e execute o arquivo 'launcher_App.bat' para abrir o Aplicativo (Pode demorar um pouco até abrir o aplicativo).
+5º - Volte para a pasta 'Sistema de Estoque txai', entre na pasta 'txai' e execute o arquivo 'launcher_App.bat' para abrir o Aplicativo (Pode demorar um pouco até abrir o aplicativo).
 
-5º - Quando decidir encerrar as atividades na aplicação, após fechar a janela do navegador, será necessario fechar as janelas do CMD que foram abertas pelos arquivos 'launcher_Server.bat' e 'launcher_App.bat'.
+6º - Quando decidir encerrar as atividades na aplicação, após fechar a janela do navegador, será necessario fechar as janelas do CMD que foram abertas pelos arquivos 'launcher_Server.bat' e 'launcher_App.bat'.
 
-6º - Para isso, primeiro é preciso ir para a janela de CMD do arquivo 'launcher_Server.bat', pressionar 'Ctrl' + 'C' (Se não der certo na primeira vez, o usuário deve tentar novamente).
+7º - Para isso, primeiro é preciso ir para a janela de CMD do arquivo 'launcher_Server.bat', pressionar 'Ctrl' + 'C' (Se não der certo na primeira vez, o usuário deve tentar novamente).
 
-7º - Ao ser questionado se deseja finalizar o arquivo em lotes, digite a letra 's' e clique na tecla 'Enter'.
+8º - Ao ser questionado se deseja finalizar o arquivo em lotes, digite a letra 's' e clique na tecla 'Enter'.
 
-8º - O mesmo procedimento deve ser feito com a janela de CMD do arquivo 'launcher_App.bat'.
+9º - O mesmo procedimento deve ser feito com a janela de CMD do arquivo 'launcher_App.bat'.
 
