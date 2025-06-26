@@ -1,7 +1,7 @@
-1º - Instale o MySQL Workbench
+É necessario ter o MySQL Workbench instalado e configurado para executar a aplicação.
 
-2º - Importe o arquivo de banco de dados 'titan_software.sql' para o MySQL Workbench
+1º - Importe a schema do arquivo 'titan_software.sql' para o MySQL Workbench.
 
-3º - Descompacte o arquivo 'Titan_Software.rar'
+2º - Descompacte o arquivo 'Titan_Software.rar'.
 
-3º - Entre na pasta 'Titan_Software' e execute o arquivo 'Launcher.bat'
+3º - Entre na pasta 'Titan_Software' e execute o arquivo 'Launcher.bat'.
