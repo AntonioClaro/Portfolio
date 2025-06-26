@@ -1,7 +1,7 @@
-1º - Instale o MySQL Workbench
+É necessario ter o MySQL Workbench instalado e configurado para executar a aplicação.
 
-2º - Importe o arquivo de banco de dados 'tgid_schema.sql' para o MySQL Workbench
+1º - Importe a schema do arquivo 'tgid_schema.sql' para o MySQL Workbench.
 
-3º - Descompacte o arquivo 'TGID_Teste.rar'
+2º - Descompacte o arquivo 'TGID_Teste.rar'
 
-4º - Entre na pasta 'TGID_Teste' e execute o arquivo 'Launcher.bat'
+3º - Entre na pasta 'TGID_Teste' e execute o arquivo 'Launcher.bat'
