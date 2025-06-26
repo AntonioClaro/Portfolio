@@ -1,4 +1,4 @@
-Login		                  Senha			                    Tipo
+Login		                  Senha			                Tipo
 
 txaiUser1                 txaiPassword1                 Usuário
 txaiUser2                 txaiPassword2                 Usuário
