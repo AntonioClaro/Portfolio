@@ -4,7 +4,7 @@
 
 2º - Baixe todos os arquivos da pasta 'Sistema de Estoque' e descompacte qualquer um deles.
 
-3º - Importe o a schema do arquivo 'Txai_SQL.sql' para o MySQL Workbench.
+3º - Importe a schema do arquivo 'Txai_SQL.sql', localizado dentro da pasta 'Sistema de Estoque Txai', para o MySQL Workbench.
 
 4º - Dentro da pasta 'Sistema de Estoque Txai', entre na pasta 'ServerTxai' e execute o arquivo 'launcher_Server.bat' para executar o Servidor Node.
 
