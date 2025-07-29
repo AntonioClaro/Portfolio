@@ -9,3 +9,6 @@
 5º - Abra o Navegador e Insira a URL 'localhost:3000'.
 
 6º - Quando decidir encerrar as atividades na aplicação, após fechar a janela do navegador, execute o arquivo 'AppClose.bat' e espera sua execução terminar (As janelas de CMD serão fechadas automaticamente).
+
+
+OBS: Na execução do 4º passo, pode demorar alguns minutos até que seja possivel acessar o aplicativo pela URL 'localhost:3000'.
