@@ -1,13 +1,11 @@
-É necessario ter o MySQL Workbench instalado e configurado para executar a aplicação.
+1º - Instale o Docker Desktop.
 
-1º - Instale o Node.js
+2º - Abra o Docker Desktop e o deixe aberto.
 
-2º - Baixe todos os arquivos da pasta 'Sistema de Estoque' e descompacte qualquer um deles.
+3º - Baixe todos o arquivo 'Sistema de Estoque Txai.rar' e o descompacte.
 
-3º - Importe a schema do arquivo 'Txai_SQL.sql', localizado dentro da pasta 'Sistema de Estoque Txai', para o MySQL Workbench.
+4º - Entre na pasta 'Sistema de Estoque Txai' e execute o arquivo 'AppOpen.bat' (Uma janela de CMD será aberta, deixe ela aberta enquanto usa a aplicação).
 
-4º - Dentro da pasta 'Sistema de Estoque Txai', entre na pasta 'ServerTxai' e execute o arquivo 'launcher_Server.bat' para executar o Servidor Node.
+5º - Abra o Navegador e Insira a URL 'localhost:3000'.
 
-5º - Volte para a pasta 'Sistema de Estoque txai', entre na pasta 'txai' e execute o arquivo 'launcher_App.bat' para abrir o Aplicativo (Pode demorar um pouco até abrir o aplicativo).
-
-6º - Quando decidir encerrar as atividades na aplicação, após fechar a janela do navegador, será necessario fechar as janelas do CMD que foram abertas pelos arquivos 'launcher_Server.bat' e 'launcher_App.bat'.
+6º - Quando decidir encerrar as atividades na aplicação, após fechar a janela do navegador, execute o arquivo 'AppClose.bat' e espera sua execução terminar (As janelas de CMD serão fechadas automaticamente).
