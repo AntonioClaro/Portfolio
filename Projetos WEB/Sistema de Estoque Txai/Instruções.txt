@@ -11,4 +11,7 @@
 6º - Quando decidir encerrar as atividades na aplicação, após fechar a janela do navegador, execute o arquivo 'AppClose.bat' e espera sua execução terminar (As janelas de CMD serão fechadas automaticamente).
 
 
-OBS: Na execução do 4º passo, pode demorar alguns minutos até que seja possivel acessar o aplicativo pela URL 'localhost:3000'.
+OBS: Na execução do 4º passo, pode demorar alguns minutos até que seja possivel acessar o aplicativo pela URL 'localhost:3000'. 
+     Espere a mensagem 'webpack compiled successfully' aparecer no console do arquivo 'AppOpen.bat'.
+
+     Se a janela do arquivo 'AppOpen.bat' não fechar automaticamente após a execução do arquivo 'AppClose.bat', basta selecionar a janela do arquivo 'AppOpen.bat' na barra de tarefas (Ou fecha-lo manualmente).
